@@ -22,7 +22,8 @@ to output the language use:  ``` {{ lang_short }} ```
 {% endif %} 
 
      ```
-For sites multi languages that required different fonts accoring to the display language 
+#####For sites multi languages that required different fonts accoring to the display language 
+
 ``` 
 {% if lang_short == "ja" %}
  <style>
