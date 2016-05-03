@@ -10,6 +10,7 @@ In most cases:``` document.getElementById('user_terms_and_conditions').checked =
 #### Custom HTML/liquid for different languages 
 to output the language use:  ``` {{ lang_short }} ``` 
 ##### example for using ``` {{ lang_short }} ``` in conditional
+
 ``` 
 {% if lang_short == ja %} <!-- 'ja' is language code for japanese --> 
       <section id="japanese_section">
@@ -19,11 +20,11 @@ to output the language use:  ``` {{ lang_short }} ```
         <section id="any_other_language_section">
           <!--  any_other_language HTML blurb -->
       </section>
-{% endif %} ```
+{% endif %} ``` ```
 
 #####For sites multi languages that required different fonts accoring to the display language 
 
-``` 
+```
 {% if lang_short == "ja" %}
  <style>
      body, h1, h1 p, h2, h2 p, h3, h3 p, h4, h4 p, h5, h5 p, p, span {
