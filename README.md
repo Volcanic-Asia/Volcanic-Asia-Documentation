@@ -15,6 +15,7 @@ For sites multi languages that required different fonts accoring to the display 
        font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic",sans-serif;!important
      }
   </style>
+  {% endif %}
   ```
 
 ##Responsive notes
