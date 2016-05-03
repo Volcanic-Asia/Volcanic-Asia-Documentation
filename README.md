@@ -19,7 +19,8 @@ to output the language use:  ``` {{ lang_short }} ```
         <section id="any_other_language_section">
           <!--  any_other_language HTML blurb -->
       </section>
-{% endif %}
+{% endif %} 
+
      ```
 For sites multi languages that required different fonts accoring to the display language 
 ``` 
