@@ -11,8 +11,8 @@ In most cases:``` document.getElementById('user_terms_and_conditions').checked =
 to output the language use:  ``` {{ lang_short }} ``` 
 ##### example for using ``` {{ lang_short }} ``` in conditional
 
-``` 
-{% if lang_short == ja %} <!-- 'ja' is language code for japanese --> 
+ ```
+ {% if lang_short == ja %} <!-- 'ja' is language code for japanese --> 
       <section id="japanese_section">
           <!-- japanese HTML blurb -->
       </section>
@@ -20,7 +20,8 @@ to output the language use:  ``` {{ lang_short }} ```
         <section id="any_other_language_section">
           <!--  any_other_language HTML blurb -->
       </section>
-{% endif %} ``` ```
+ {% endif %}
+   ```
 
 #####For sites multi languages that required different fonts accoring to the display language 
 
